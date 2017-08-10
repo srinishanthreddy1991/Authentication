@@ -1,7 +1,7 @@
 (function () {
     "use strict"
     angular
-        .module(myModule,[])
+        .module("myModule")
         .controller("mainController", mainControllerFunc);
     
     var mainControllerFunc = function () {
